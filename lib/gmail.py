@@ -20,7 +20,7 @@ def read_email_from_gmail(email_address,
     output_mails = []
     try:
         limit = int(limit)
-        
+
         mail = imaplib.IMAP4_SSL(SMTP_SERVER)
         mail.login(email_address, email_password)
         mail.select(folder)
