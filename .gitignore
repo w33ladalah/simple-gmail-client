@@ -1,0 +1,5 @@
+.idea/
+gmailEnv/
+sandbox/
+
+*.pyc
